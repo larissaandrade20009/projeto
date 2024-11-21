@@ -1,0 +1,31 @@
+body{
+color:rgb(161, 137, 1);
+background:rgb(14, 12, 12);
+border-bottom: solid 0px rgb(0, 0, 0);
+font-family: "Chakra Petch", sans-serif;
+margin: 20px
+}
+/* código omitido */
+ 
+
+.categoria-videos{
+    display: flex;
+    gap: 10px;
+}
+    
+
+img {
+    height: 20px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(255, 174, 0);
+}
+.categoria h2 {
+  color: rgb(42, 122,228)
+}
